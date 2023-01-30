@@ -1,0 +1,127 @@
+.header{
+    align-items: center;
+    text-align: center;
+}
+#headerSection{
+    background-color: white;
+}
+#mainSection{
+    min-height: 400px;
+    max-width: 100%;
+    background-image: url('https://www.picshare.co.il/m_pictures/img164463.jpg');
+    align-items: center;
+    box-sizing:unset;
+}
+#mainSectionBlue{
+    min-height: 400px;
+    max-width: 99%;
+    
+    background-image: url('https://images.unsplash.com/photo-1483401757487-2ced3fa77952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80');
+    color:wheat;
+    box-sizing:unset;
+    align-items: center;
+}
+
+#formArea{
+    max-width: 300px;
+    min-height: 300px;
+}
+.topSectionText{
+    max-width: 400px;
+}
+.midTitle{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+.middleSection{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}.middleSecond{
+    padding: 20px;
+    background-color:#f0e8e5;
+    text-align: center;
+    align-items: center;
+}
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.lowSection{
+    text-align: center;
+    align-items: center;
+}
+.leftImg{
+    
+    
+        border-right: 1px solid black;
+
+}
+.callNow{
+    background-color: rgb(245, 183, 49);
+    color:whitesmoke;
+    width:180px;
+    align-items: center;
+    text-align: center;
+}
+a.callNow:link {
+    text-decoration: none;
+    color:whitesmoke
+  }
+  
+  a.callNow:visited {
+    text-decoration: none;
+    color:whitesmoke
+
+  }
+  
+  a.callNow:hover {
+    text-decoration: none;
+    color:whitesmoke
+
+  }
+  
+  a.callNow:active {
+    text-decoration: none;
+    color:whitesmoke
+
+  }
+@media screen and (min-width:  576px){
+    .showInNarrow{
+        display:none
+    }
+}
+
+.lowBlue{
+    background-color: rgb(255, 230, 199);
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    color: rgb(37, 37, 37);
+    font-size: 2vw;
+    
+}
+a.footer:link {
+    text-decoration: none;
+    color:rgb(24, 24, 24);  }
+  
+  a.footer:visited {
+    text-decoration: none;
+    color:rgb(24, 24, 24);
+  }
+  
+  a.footer:hover {
+    text-decoration: none;
+    color:rgb(24, 24, 24);
+  }
+  
+  a.footer:active {
+    text-decoration: none;
+    color:rgb(24, 24, 24);
+}
